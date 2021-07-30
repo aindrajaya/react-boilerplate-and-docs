@@ -42,5 +42,5 @@ or
 ### Running the server
 
 ```
-node server.ks
+node server.js
 ```
