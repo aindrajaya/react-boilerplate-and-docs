@@ -13,8 +13,8 @@ import BoardUser from "./components/BoardUser";
 import BoardModerator from "./components/BoardModerator";
 import BoardAdmin from "./components/BoardAdmin";
 
-import { logout } from "./actions/auth";
-import { clearMessage } from "./actions/message";
+import { logout } from "./redux/actions/auth";
+import { clearMessage } from "./redux/actions/message";
 
 import { history } from "./helpers/history";
 
