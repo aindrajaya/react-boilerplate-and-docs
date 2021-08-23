@@ -1,0 +1,73 @@
+/* 1. useState styling */
+* {
+  box-sizing: border-box;
+}
+
+.AppUseState {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.AppUseState__header {
+  background-color: #282c34;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 24px;
+}
+
+.CartUseState {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.CartItemUseState {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.CartItemUseState__btn {
+  background: white;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: bold;
+  height: 24px;
+  padding: 0;
+  width: 24px;
+}
+
+.CartItemUseState__btn:hover {
+  background: orange;
+  color: white;
+}
+
+.CartItemUseState__input {
+  height: 24px;
+  margin: 0 4px;
+  max-width: 36px;
+  padding: 0;
+  text-align: center;
+}
+
+.CartUseState__total {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.CartUseState__total-label {
+  font-size: 14px;
+  padding: 8px;
+  text-align: center;
+}
