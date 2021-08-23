@@ -1,0 +1,5 @@
+takeEvery saga
+blocking saga -> disable button when is still process
+function* -> function generators
+call -> redux saga
+yield all -> redux saga
